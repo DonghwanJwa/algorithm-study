@@ -21,7 +21,7 @@ public class Beakjun10250 {
             double N = Double.parseDouble(arrQuest[2]);
 
             // 호 : N/W
-            int number =(int)Math.ceil(N/H);    //1개의 호는 층수만큼 존재하므로, N을 H로 나눈 정수(버림) = 호수
+            int number =(int)Math.ceil(N/H);    //1개의 호는 층수만큼 존재하므로, N을 H로 나눈 정수(올림) = 호수
 
             // 층
             int floor =  (int)(H- ((number * H) - N)) ; //호수 * 층수로 해당 소수까지의 방 수를 구하고, N번째 손님 방이 몇층에 있는지 역추적 한다.
