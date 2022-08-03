@@ -36,7 +36,7 @@ public class Inflearn0405 {
                 }
             }
         }
-        arrSum.sort(Comparator.reverseOrder()); //내림차순 정렬
+        arrSum.sort(Comparator.reverseOrder()); //오름차순 정렬
 
         if(arrSum.size() < count) {
             System.out.println(-1);
