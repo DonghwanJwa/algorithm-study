@@ -18,7 +18,7 @@ public class Beakjun1463 {
         //근데 이걸 계속 반복해야됨.. 모든가능성을 체크하며 내값을 찾아가자
         //bottom-up을 이용
 
-        //연산에 대한 결과값을 Memorize할 배열
+        //연산에 대한 결과값을 Memoization할 배열
         int[] memo = new int[num+1];
 
         //노가다로 해보자
