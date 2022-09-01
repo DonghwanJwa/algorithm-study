@@ -43,7 +43,7 @@ public class Programmers118667 {
                 if(lq1>lq2){    //합이큰 queue에서 합이 작은 queue로 값을 이동
                     int tmp = q1.poll();    //1. 합이 큰곳에서 숫자 하나를 뺀다음(queue1)
                     lq1-=tmp;               //2. queue1의 총합에서 빼고
-                    lq2+=tmp;               //3. queue2의 총합에서 뺀다.
+                    lq2+=tmp;               //3. queue2의 총합에서 더한다
                     q2.add(tmp);            //4. 합이 작은곳에 숫자를 추가한다(queue2)
                     count++;                //5. 움직임을 하나 추가한다.
                 }else{
